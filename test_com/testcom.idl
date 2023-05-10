@@ -1,0 +1,37 @@
+﻿// test_com.idl: test_com의 IDL 소스
+//
+
+// 이 파일은 MIDL 도구에 의해 처리되어
+// 형식 라이브러리(testcom.tlb) 및 마샬링 코드를 생성합니다.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(743376f1-c4ce-49a4-82a0-d9eef73a81c3),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface IFastCom : IDispatch
+{
+	[id(1)] HRESULT Sum([in] LONG a, [in] LONG b, [out, retval, retval] LONG* rst);
+};
+[
+	uuid(834a4ffd-2cd7-4138-b8a8-6f16e49f9972),
+	version(1.0),
+]
+library testcomLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(ec62f348-f6b7-4ccc-a029-a9473be09fc9)
+	]
+	coclass FastCom
+	{
+		[default] interface IFastCom;
+	};
+};
+
+import "shobjidl.idl";

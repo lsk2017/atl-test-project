@@ -1,0 +1,71 @@
+﻿빌드 시작: 2023-05-10 오후 4:59:27
+로깅의 세부 정보 표시가 Normal(으)로 설정되었습니다.     1>2 노드의 "D:\projects\com_test\test_comPS\test_comPS.vcxproj" 프로젝트(Build 대상)입니다.
+     1>InitializeBuildStatus:
+         "DebugPS\test_comPS.tlog\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+       PreBuildEvent:
+         Checking for required files
+         if exist dlldata.c goto :END
+         echo Error: MIDL will not generate DLLDATA.C unless you have at least 1 interface in the main project.
+         Exit 1
+         :END
+         
+         :VCEnd
+     1>EXEC : error : MIDL will not generate DLLDATA.C unless you have at least 1 interface in the main project.
+     1>C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(149,5): error MSB3073: "if exist dlldata.c goto :END
+C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(149,5): error MSB3073: echo Error: MIDL will not generate DLLDATA.C unless you have at least 1 interface in the main project.
+C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(149,5): error MSB3073: Exit 1
+C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(149,5): error MSB3073: :END
+C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(149,5): error MSB3073: 
+C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(149,5): error MSB3073: :VCEnd" 명령이 종료되었습니다(코드: 1).
+     1>"D:\projects\com_test\test_comPS\test_comPS.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+프로젝트 성능 요약:
+       99ms  D:\projects\com_test\test_comPS\test_comPS.vcxproj   1회 호출
+                 99ms  Build                                      1회 호출
+
+대상 성능 요약:
+        0ms  AddExternalIncludDirectoriesToPaths        1회 호출
+        0ms  ResolveReferences                          1회 호출
+        0ms  AfterResolveReferences                     1회 호출
+        0ms  ResolveAssemblyReferences                  1회 호출
+        0ms  ExpandSDKReferences                        1회 호출
+        0ms  ResolveSDKReferences                       1회 호출
+        0ms  _CheckWindowsSDKInstalled                  1회 호출
+        0ms  GetResolvedWinMD                           1회 호출
+        0ms  BeforeBuildGenerateSources                 1회 호출
+        0ms  GetFrameworkPaths                          1회 호출
+        0ms  GetReferenceAssemblyPaths                  1회 호출
+        0ms  PrepareProjectReferences                   1회 호출
+        0ms  _AddOutputPathToGlobalPropertiesToRemove   1회 호출
+        0ms  _SplitProjectReferencesByFileExistence     1회 호출
+        0ms  BeforeResolveReferences                    1회 호출
+        0ms  _PrepareForReferenceResolution             1회 호출
+        0ms  _PrepareForBuild                           1회 호출
+        0ms  SetTelemetryEnvironmentVariables           1회 호출
+        0ms  ResolveProjectReferences                   1회 호출
+        0ms  BuildGenerateSourcesTraverse               1회 호출
+        1ms  AssignProjectConfiguration                 1회 호출
+        1ms  _GetProjectReferenceTargetFrameworkProperties   1회 호출
+        1ms  SetCABuildNativeEnvironmentVariables       1회 호출
+        1ms  SetBuildDefaultEnvironmentVariables        1회 호출
+        2ms  PrepareForBuild                            1회 호출
+        2ms  InitializeBuildStatus                      1회 호출
+        2ms  _CheckForInvalidConfigurationAndPlatform   1회 호출
+       89ms  PreBuildEvent                              1회 호출
+
+빌드하지 못했습니다.
+
+       "D:\projects\com_test\test_comPS\test_comPS.vcxproj"(Build 대상)(1) ->
+       (PreBuildEvent 대상) -> 
+         EXEC : error : MIDL will not generate DLLDATA.C unless you have at least 1 interface in the main project.
+         C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(149,5): error MSB3073: "if exist dlldata.c goto :END
+       C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(149,5): error MSB3073: echo Error: MIDL will not generate DLLDATA.C unless you have at least 1 interface in the main project.
+       C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(149,5): error MSB3073: Exit 1
+       C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(149,5): error MSB3073: :END
+       C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(149,5): error MSB3073: 
+       C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(149,5): error MSB3073: :VCEnd" 명령이 종료되었습니다(코드: 1).
+
+    경고 0개
+    오류 2개
+
+경과 시간: 00:00:00.09
